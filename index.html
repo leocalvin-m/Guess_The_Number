@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+</head>
+
+<body>
+    <header class="header">
+        <button class="header-btn">Play Again</button>
+    </header>
+    <main class="main-container">
+        <p class="main-heading">Guess The Number</p>
+        <section class="main-display-area">
+            <svg class="star" width="245" height="245" viewBox="0 0 245 245" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M122.5 0L139.747 13.6074L160.355 5.99557L172.552 24.2665L194.504 23.3954L200.459 44.5415L221.605 50.4963L220.733 72.4475L239.004 84.6454L231.393 105.253L245 122.5L231.393 139.747L239.004 160.355L220.733 172.552L221.605 194.504L200.459 200.459L194.504 221.605L172.552 220.733L160.355 239.004L139.747 231.393L122.5 245L105.253 231.393L84.6454 239.004L72.4475 220.733L50.4963 221.605L44.5415 200.459L23.3954 194.504L24.2665 172.552L5.99557 160.355L13.6074 139.747L0 122.5L13.6074 105.253L5.99557 84.6454L24.2665 72.4475L23.3954 50.4963L44.5415 44.5415L50.4963 23.3954L72.4475 24.2665L84.6454 5.99557L105.253 13.6074L122.5 0Z"
+                    fill="#2A9D8F" />
+            </svg>
+            <span class="question">?</span>
+        </section>
+        <p class="main-about">
+            A Number will be Randomly set in between 1 to 100 try to Guess the Number in 20 turns or less. When you
+            Enter your Number it will show you Either your guess is too Low or too High
+        </p>
+        <section class="main-score-input">
+            <div class="section-input">
+                <input type="number" required>
+                <button class="input-btn">Check</button>
+            </div>
+            <div class="section-score">
+                <p class="high-score">High Score: <span>18</span></p>
+                <p class="score">Score: <span>20</span></p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    line-height:1.2;
+    background-color: #E9C46A;
+}
+header{
+    margin-bottom: 3rem;
+    padding: 2rem 3.4rem;
+}
+.header-btn,
+.input-btn{
+    border:none;
+    background-color: #2A9D8F;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.6rem;
+    padding:1.8rem 1.2rem;
+    box-shadow: 0.5rem 0.5rem 0 0 rgba(0,0,0,0.2);
+    transition: all 0.3s;
+}
+.header-btn:active,
+.input-btn:active{
+    box-shadow: 0.25rem 0.25rem 0 0 rgba(0,0,0,0.1);
+}
+.main-container{
+        max-width: 70rem;
+        height: 100vh;
+        margin:0 auto;
+}
+.main-heading{
+    font-size: 3.8rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 2.6rem;
+}
+.main-display-area{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.star{
+    width: 17rem;
+    height: 17rem;
+    margin-bottom: 3.2rem;
+    
+}
+.question{
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    position: absolute;
+    font-size: 7.4rem;
+}
+.main-about{
+    color:#fff;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 8rem;
+}
+.main-score-input{
+    display: flex;
+    gap: 40%;
+}
+.section-input,
+.section-score{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1.8rem;
+}
+.section-input input{
+    background: none;
+    border:0.3rem solid #2A9D8F;
+    font-size: 3rem;
+    width:20rem;
+    font-family: 'Press Start 2P', cursive;
+    padding: 2rem 1.4rem;
+    color:#fff;
+}
+
+.section-input input:focus{
+    outline: none;
+
+}
+.section-score{
+    color:#2A9D8F;
+    font-size: 1.4rem;
+    
+}
+
+@media only screen and (max-width:740px){
+    html{
+        font-size: 50%;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 45%;
+    }
+    
+}
+@media only screen and (max-width:560px){
+    html{
+        font-size: 45%;
+    }
+    
+
+
+}
+@media only screen and (max-width:560px){
+    html{
+        font-size: 45%;
+    }
+    
+
+
+}
+@media only screen and (max-width:532px){
+    html{
+        font-size: 40%;
+    }
+    .main-score-input{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        gap: 3.2rem;
+    }
+
+}
+@media only screen and (max-width:481px){
+    html{
+        font-size: 40%;
+    }
+    .main-container{
+        width:40rem;
+    }
+    header{
+        display: flex;
+        justify-content: end;
+    }
+    .header-btn{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
