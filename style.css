@@ -20,7 +20,7 @@ header{
 .input-btn{
     border:none;
     background-color: #2A9D8F;
-    color: #fff;
+    color: #E9C46A;
     font-family: 'Press Start 2P', cursive;
     font-size: 1.6rem;
     padding:1.8rem 1.2rem;
@@ -38,7 +38,7 @@ header{
 }
 .main-heading{
     font-size: 3.8rem;
-    color: #fff;
+    color: #2A9D8F;
     text-align: center;
     font-weight: 100;
     margin-bottom: 2.6rem;
@@ -52,18 +52,23 @@ header{
     width: 17rem;
     height: 17rem;
     margin-bottom: 3.2rem;
+    fill: #2A9D8F;
     
+    
+}
+.star-animate{
+    animation: blink 0.6s ease-in-out infinite alternate-reverse;
 }
 .question{
     color: #fff;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-60%);
+    transform: translate(-50%,-80%);
     position: absolute;
-    font-size: 7.4rem;
+    font-size: 3.4rem;
 }
 .main-about{
-    color:#fff;
+    color:#2A9D8F;
     text-align: justify;
     font-size: 1.2rem;
     line-height: 1.8;
@@ -97,6 +102,18 @@ header{
 .section-score{
     color:#2A9D8F;
     font-size: 1.4rem;
+    
+}
+
+@keyframes  blink{
+    0%{
+        width: 20rem;
+        fill:#69db7c;
+    }
+    100%{
+        width:10rem;
+        fill:#2A9D8F;
+    }
     
 }
 
